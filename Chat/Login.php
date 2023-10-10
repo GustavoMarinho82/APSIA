@@ -1,12 +1,12 @@
 <?php 
     session_start();
 
-    /*if(isset($_SESSION['id_usuario'])){
+    if(isset($_SESSION['id_usuario'])){
         header("Location: Usuarios.php");
-    }*/
+    }
 ?>
 
-<?php include_once "header.php"; ?>
+<?php include("header.php"); ?>
     <body>
         
         <div class="wrapper">
@@ -30,7 +30,7 @@
 
                     <div class="field input">
                         <label>E-mail</label>
-                        <input type="text" name="email" placeholder="Digite seu email" value="<?php echo $email_cadastrado?>" required>
+                        <input type="email" name="email" placeholder="Digite seu email" value="<?php echo $email_cadastrado?>" required>
                     </div>
 
                     <div class="field input">

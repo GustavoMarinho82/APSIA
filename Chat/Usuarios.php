@@ -2,12 +2,12 @@
     include("PHP/conexao.php");
     session_start();
     
-    /*if(!isset($_SESSION['id_usuario'])){
-        header("location: login.php");
-    }*/
+    if(!isset($_SESSION['id_usuario'])){
+        header("Location: Login.php");
+    }
 ?>
 
-<?php include_once "header.php"; ?>
+<?php include("header.php"); ?>
     <body>
         <div class="wrapper">
             <section class="users">
@@ -20,7 +20,7 @@
                             $linha = mysqli_fetch_assoc($consulta);
                 ?>
 
-                <img src="imagens/1.png" alt="">
+                <img src="imagens/profile-icon1.png" alt="">
                 <div class="details">
                     <span><?php echo $linha['nome']?></span>
                     <p><?php echo "On-line" ?></p>
