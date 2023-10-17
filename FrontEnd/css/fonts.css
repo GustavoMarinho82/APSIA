@@ -36,8 +36,8 @@
 
 /*Cores*/
 :root{
-    --marrom: #780000;
-    --laranja: #be8040;
-    --cor-fonte: #be8040;
-    --cor-font-leve: #dac3a8;
+    --azul-escuro: #123a56;
+    --azul-claro: #38b6ff;
+    --cor-fonte: #ffffff;
+    --cor-font-leve: #6bccfc;
 }

@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="../css/home_style.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>APSIA</title>
   </head>
   <body>
     <header>
       <nav>
+        <div class="nav-title">
+          <img src="../imagens/logopequena.png">
           <a class="logo" href="#">APSIA</a>
+        </div>
           <div class="mobile-menu">
               <div class="line1"></div>
               <div class="line2"></div>
@@ -49,16 +49,16 @@
 
           <!--slide imagens-->
             <div class="slide first">
-              <img src="../imagens/restaurante.jpg" alt="teste1" />
+              <img src="../imagens/mental-health-2019924_1920.jpg" alt="teste1" />
             </div>
             <div class="slide">
-              <img src="../imagens/Lucas.jpg" alt="teste2" />
+              <img src="../imagens/shutterstock_764075791_358280.jpg" alt="teste2" />
             </div>
             <div class="slide">
-              <img src="../imagens/Daniel.jpg" alt="teste3" />
+              <img src="../imagens/2100x1200px_Article_Hero_Memory.png" alt="teste3" />
             </div>
             <div class="slide">
-              <img src="../imagens/caio.jpg" alt="teste4" />
+              <img src="../imagens/Logo do Apsia.png" alt="teste4" />
             </div>
           <!--slide imagens fim-->
           
@@ -135,60 +135,78 @@
     </section>
 
     <footer>
-      <button class="to-top"><i class="fa fa-chevron-up"></i>TOP</button>
+      <div id="footer_content">
+          <div id="footer_contacts">
+              <h1>Logo</h1>
+              <p>It's all about your dreams.</p>
 
-      <div class="restaurant-info">
-        <div class="locations">
-          <h4>Locais</h4>
-          <div class="location-1">
-            <h5>Rua van ever 372<br />Rio de janeiro, RJ &#8212; 11231</h5>
-          </div>
-          <!--location-1-->
-          <div class="location-2">
-            <h5 style="right: 5px;">Estrada da Portela<br />Rio de Janeiro, RJ</h5>
-          </div>
-        </div>
-        <!--locations end-->
+              <div id="footer_social_media">
+                  <a href="#" class="footer-link" id="instagram">
+                      <i class="fa-brands fa-instagram"></i>
+                  </a>
 
-        <div class="hours">
-          <h4>Horários</h4>
-          <div class="weekdays">
-            <h5>
-              Segunda - Terça<br />
-              5:30pm - 10:00pm
-            </h5>
-          </div>
-          <!--weekdays end-->
+                  <a href="#" class="footer-link" id="facebook">
+                      <i class="fa-brands fa-facebook-f"></i>
+                  </a>
 
-          <div class="weekends">
-            <h5>
-              Sexta & Sábado<br />
-              5:30pm - 11:00pm
-            </h5>
+                  <a href="#" class="footer-link" id="whatsapp">
+                      <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+              </div>
           </div>
-          <!--weekends end-->
+          
+          <ul class="footer-list">
+              <li>
+                  <h3>Blog</h3>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Tech</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Adventures</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Music</a>
+              </li>
+          </ul>
 
-          <div class="private-events">
-            <h5>
-              Avaliamos sua privacidade<br />
-              Eventos aos sábados
-            </h5>
+          <ul class="footer-list">
+              <li>
+                  <h3>Products</h3>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">App</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Desktop</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Cloud</a>
+              </li>
+          </ul>
+
+          <div id="footer_subscribe">
+              <h3>Subscribe</h3>
+
+              <p>
+                  Enter your e-mail to get notified about
+                  our news solutions
+              </p>
+
+              <div id="input_group">
+                  <input type="email" id="email">
+                  <button>
+                      <i class="fa-regular fa-envelope"></i>
+                  </button>
+              </div>
           </div>
-        </div>
-        <!--hours end-->
       </div>
-      <!--restaurant-info end-->
 
-      <div class="copyright">
-        <p>
-          <small
-            >Copyright 2014 &#169; Feito sobe permissão Capital Buffet
-            <span>Team Capital Buffet</span> time</small
-          >
-        </p>
-        <p><small>Permissions and Copyright &#8226; Contact The Team</small></p>
+      <div id="footer_copyright">
+          &#169
+          2023 all rights reserved
       </div>
-    </footer>
+  </footer>
     <script src="../javascript/home.js"></script>
   </body>
 </html>
