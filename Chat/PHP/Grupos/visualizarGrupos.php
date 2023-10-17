@@ -5,15 +5,15 @@
     $id_remetente = $_SESSION['id_usuario'];
     $output = "";
 
-    $sql = "SELECT * FROM usuarios WHERE NOT id_usuario = $id_remetente";
+    $sql = "SELECT * FROM grupos";
         $consulta = mysqli_query($mysqli, $sql);
 
 
     if (mysqli_num_rows($consulta) == 0){
-        $output .= "Nenhum usuário está disponível!";
+        $output .= "Nenhum grupo está disponível!";
 
     } else {
-        include("../pesquisa.php");
+        include("../pesquisaGrupo.php");
     }
 
     echo $output;

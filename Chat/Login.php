@@ -1,7 +1,7 @@
 <?php 
     session_start();
 
-    if(isset($_SESSION['id_usuario'])){
+    if (isset($_SESSION['id_usuario'])){
         header("Location: Usuarios.php");
     }
 ?>
@@ -23,8 +23,8 @@
 
                         } else if (!empty($_SESSION['email_cadastrado'])) {
                             echo "<div class='sucess-text'>Cadastrado com sucesso!</div>";
-                            $email_cadastrado=$_SESSION['email_cadastrado'];
-                            $_SESSION['email_cadastrado']="";
+                            $email_cadastrado = $_SESSION['email_cadastrado'];
+                            $_SESSION['email_cadastrado'] = "";
                         }
                     ?>
 

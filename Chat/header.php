@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Código original por CodingNepal (https://www.codingnepalweb.com/chat-web-application-using-php/)-->
+<!-- Código original por CodingNepal (https://www.codingnepalweb.com/chat-web-application-using-php/) -->
 <?php date_default_timezone_set('America/Sao_Paulo'); ?>
 
 <html lang="pt-br">
