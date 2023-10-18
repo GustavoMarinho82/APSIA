@@ -74,7 +74,7 @@ ul {
 nav{
   font-size: 0.9rem;
   display: flex;
-  position: fixed;
+  position: relative;
   justify-content: space-around;
   align-items: center;
   background: var(--azul-escuro);
@@ -463,6 +463,7 @@ footer {
 #footer_content {
   background-color: var(--azul-escuro);
   display: grid;
+  position: relative;
   grid-template-columns: repeat(4, 1fr);
   padding: 2.5rem 3rem;
 }
