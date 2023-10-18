@@ -1,0 +1,94 @@
+.footer_content{
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
+
+.cards{
+    position: absolute;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#footer_content {
+    background-color: var(--azul-escuro);
+    display: grid;
+    position: relative;
+    margin-top: 40%;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2.5rem 3rem;
+}
+
+
+
+
+main.cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px;
+    font-family: "Alkatra",sans-serif;
+    margin-top: 110px;
+  }
+  
+  main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: whitesmoke;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+  }
+  
+  main.cards section.card:first-child {
+    margin-left: 0;
+  }
+  
+  main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+  }
+  
+  main.cards section.card img {
+    width: 100%;
+  }
+  
+  main.cards section.card h3 {
+    font-size: 100%;
+    margin: 16px 0;
+  }
+  
+  main.cards section.card span {
+    font-weight: 300;
+    font-family: "PT Sans", sans-serif;
+    max-width: 600px;
+    height: 700px;
+    font-size: 80%;
+    margin-bottom: 16px;
+  }
+  
+  main.cards section.card button {
+    padding: 0.5rem 1rem;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+  }
+  
+  .il-evento{
+    max-width: 450px;
+    border-radius: 6px;
+  }
+  
+  main.cards section.card.noticia button, main.cards section.card.contato button, main.cards section.card.sobre button {
+    margin-top: 30px;
+    background: linear-gradient(to right, #3E8AFF, var(--azul-claro));
+  }
+  
+  
