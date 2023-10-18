@@ -94,6 +94,10 @@ nav{
   font-family: 'PT Sans', sans-serif;
   
 }
+.nav-list li:hover{
+  color: var(--cor-font-leve);
+  font-size: 1rem;
+}
 
 .mobile-menu {
   display: none;
@@ -217,6 +221,7 @@ nav{
   background-color: #fff;
 }
 /*media querys das navs*/
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .manual-navigation, .navigation-auto{
     margin-top: 80%;
@@ -232,10 +237,6 @@ nav{
   .nav-title a{
     font-size: 1.3rem;
     margin-right: 3rem;
-  }
-  .nav-list li:hover{
-    color: var(--cor-font-leve);
-    font-size: 1rem;
   }
 }
 
@@ -255,6 +256,7 @@ nav{
     font-size: 1.3rem;
     margin-right: 3rem;
   }
+  
 }
 @media (max-width: 480px) {
   .manual-navigation, .navigation-auto{
@@ -462,11 +464,14 @@ footer {
   background-color: var(--azul-escuro);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 3rem 3.5rem;
+  padding: 2.5rem 3rem;
 }
 
-#footer_contacts h1 {
+#footer_contato h1 {
   margin-bottom: 0.75rem;
+}
+#footer_contato p{
+  margin-right: 1rem;
 }
 
 #footer_social_media {
@@ -568,7 +573,7 @@ footer {
   justify-content: center;
   background-color: var(--azul-escuro);
   font-size: 0.9rem;
-  padding: 1.5rem;
+  padding: 0.5rem;
   font-weight: 100;
 }
 
@@ -795,12 +800,12 @@ main.cards section.card button {
 }
 
 
-main.cards section.card.shop button, main.cards section.card.contact button, main.cards section.card.about button {
+main.cards section.card.noticia button, main.cards section.card.contato button, main.cards section.card.sobre button {
   background: linear-gradient(to right, #3E8AFF, var(--azul-claro));
 }
 
 
-main.cards section.card.contact, main.cards section.card.shop, main.cards section.card.about {
+main.cards section.card.contato, main.cards section.card.noticia, main.cards section.card.sobre {
   box-shadow: 30px 30px 55px -30px var(--azul-escuro);
 }
 

@@ -1,0 +1,300 @@
+/*-------sirt news page start-------*/
+.npwrap h1 {
+    text-transform: capitalize;
+    margin-top: 0.8em;
+    font-family: "Nobile", sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: #666666;
+  }
+  .npwrap h2 {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0 8em;
+    font-family: "Nobile", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+    color: #666;
+  }
+  .npwrap h3 {
+    text-transform: capitalize;
+    font-family: "Nobile", sans-serif;
+    font-size: 0.875em;
+    font-weight: 700;
+    line-height: 1em;
+    color: #f58025;
+  }
+  .npwrap h8 {
+    text-transform: capitalize;
+    padding: 0 0.5em;
+    font-family: "Nobile", sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 3em;
+    color: #f58025;
+  }
+  .npwrap h4 {
+    text-transform: capitalize;
+    font-family: "Nobile", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+    color: #00447c;
+  }
+  .npwrap h5 {
+    text-transform: capitalize;
+    font-family: "Nobile", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+    color: #f58025;
+  }
+  .npwrap h6 {
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+    font-family: "Nobile", sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: #0064b1;
+  }
+  .npwrap h7 {
+    text-transform: capitalize;
+    margin: 0.5em 0 2em 0;
+    font-family: "Nobile", sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .npwrap p {
+    font-family: "Nobile", sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.25em;
+  }
+  .npwrap {
+    width: 80%;
+    min-height: 20em;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  .npblock {
+    float: left;
+    position: relative;
+    display: flex;
+    margin: 0.5em;
+  }
+  .npside {
+    position: relative;
+    display: block;
+  }
+  #npside {
+    float: right;
+    width: 14.76em;
+    height: 100%;
+    margin: 0.5em;
+    z-index: 1;
+  }
+  .npcntitle {
+    width: 100%;
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    background-color: #f58025;
+    margin-bottom: 0.5em;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+  }
+  .npcn {
+    height: 17em;
+    margin-bottom: 0.5em;
+    position: relative;
+    display: block;
+    text-align: center;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+  }
+  .npcn a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+  }
+  .npcn a:active {
+    text-decoration: none;
+  }
+  .npcn a:visited {
+    text-decoration: none;
+  }
+  .npcn a:hover,
+  .npcn:hover {
+    color: white;
+    background-color: #0064b1;
+  }
+  
+  .npcnpic {
+    width: 100%;
+    height: 8.25em;
+    background-color: grey;
+  }
+  .npcnpic:hover img {
+    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+  }
+  .npcnpic img {
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+  }
+  .npcntext {
+    height: 100%;
+    padding: 0 0.5em 0.5em 0.5em;
+  }
+  .npcntext p {
+    font-size: 0.5em;
+  }
+  .npstory {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+  }
+  .npstory a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+  }
+  .npstory a:active {
+    text-decoration: none;
+  }
+  .npstory a:visited {
+    text-decoration: none;
+  }
+  .npstory a:hover,
+  .npstory:hover {
+    color: white;
+    background-color: #0064b1;
+  }
+  .nptext {
+    font-size: 100%;
+    padding: 0 1em 1em 1em;
+  }
+  .nppic {
+    margin: 0 auto;
+    background-color: darkgray;
+  }
+  .nppic:hover img {
+    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+  }
+  .nppic img {
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+  }
+  #npblock1 {
+    float: left;
+    margin-top: 5rem;
+    width: 61.663em;
+    height: 36.4375em;
+  }
+  #npstory1 {
+    float: left;
+    width: 42.788em;
+    height: 36.4375em;
+  }
+  #npstory1 p {
+    font-size: 1.125em;
+  }
+  #nppic1 {
+    width: 100%;
+    height: 23.9375em;
+  }
+  #npstory2 {
+    margin-left: 1em;
+    float: left;
+    width: 17.875em;
+    height: 17.718em;
+  }
+  #npstory2 p {
+    font-size: 0.625em;
+  }
+  #nppic2 {
+    width: 100%;
+    height: 10em;
+  }
+  #npstory3 {
+    margin-top: 1em;
+    margin-left: 1em;
+    float: left;
+    width: 17.875em;
+    height: 17.718em;
+  }
+  #npstory3 p {
+    font-size: 0.625em;
+  }
+  #nppic3 {
+    width: 100%;
+    height: 10em;
+  }
+  #npblock2 {
+    float: left;
+    width: 61.663em;
+    height: 36.4375em;
+  }
+  #npstory6 {
+    float: right;
+    width: 42.788em;
+    height: 36.4375em;
+  }
+  #npstory6 p {
+    font-size: 1.125em;
+  }
+  #nppic6 {
+    width: 100%;
+    height: 23.9375em;
+  }
+  #npstory5 {
+    margin-right: 1em;
+    float: right;
+    width: 17.875em;
+    height: 17.718em;
+  }
+  #npstory5 p {
+    font-size: 0.625em;
+  }
+  #nppic5 {
+    width: 100%;
+    height: 10em;
+  }
+  #npstory4 {
+    margin-top: 1em;
+    margin-right: 1em;
+    float: right;
+    width: 17.875em;
+    height: 17.718em;
+  }
+  #npstory4 p {
+    font-size: 0.625em;
+  }
+  #nppic4 {
+    width: 100%;
+    height: 10em;
+  }
+  /*-------sirt news page end-------*/
+  
