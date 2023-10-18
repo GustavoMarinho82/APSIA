@@ -11,7 +11,7 @@
 }
 
 a {
-  color: var(--cor-fonte);
+  color: var(--cor-fonte) !important;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -31,7 +31,7 @@ button {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   padding-bottom: 5px;
 }
 
@@ -92,7 +92,7 @@ nav{
   letter-spacing: 3px;
   margin-left: 1.3rem;
   font-family: 'PT Sans', sans-serif;
-  
+  color: var(--cor-fonte) !important;
 }
 .nav-list li:hover{
   color: var(--cor-font-leve);
@@ -114,10 +114,11 @@ nav{
 
 @media (max-width: 1000px) {
   body{
-      overflow-x: hidden;
+      overflow-x: hidden !important;
   }
   .nav-list {
       position: absolute;
+      display: none;
       top: 8vh;
       right: 0;
       width: 100vw;
@@ -131,6 +132,7 @@ nav{
   }
   .nav-list.active{
     transform: translateX(0);
+    display: flex;
   }
   .nav-list.active li:hover{
     color: var(--cor-font-leve);
