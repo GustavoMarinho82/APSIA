@@ -20,7 +20,7 @@ searchBar.onkeyup = ()=>{
     searchBar.classList.remove("active");
   }
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "PHP/Usuarios/procurarUsuarios.php", true);
+  xhr.open("POST", "PHP/Conversas/pesquisarConversas.php", true);
   xhr.onload = ()=>{
     if(xhr.readyState === XMLHttpRequest.DONE){
         if(xhr.status === 200){
@@ -35,7 +35,7 @@ searchBar.onkeyup = ()=>{
 
 setInterval(() =>{
   let xhr = new XMLHttpRequest();
-  xhr.open("GET", "PHP/Usuarios/outrosUsuarios.php", true);
+  xhr.open("GET", "PHP/Conversas/visualizarConversas.php", true);
   xhr.onload = ()=>{
     if(xhr.readyState === XMLHttpRequest.DONE){
         if(xhr.status === 200){

@@ -1,8 +1,8 @@
 <?php
-    while ($linha = mysqli_fetch_assoc($consulta)){
-        $id_destinatario = $linha['id_usuario'];
+    while ($linha = mysqli_fetch_assoc($consultaG)){
+        $id_grupo = $linha['id_grupo'];
 
-        $sql2 = "SELECT * FROM mensagens WHERE (destinatario_id = $id_destinatario OR remetente_id = $id_destinatario) AND (remetente_id = $id_remetente OR destinatario_id = $id_remetente) ORDER BY horario DESC LIMIT 1";
+        $sql2 = "SELECT * FROM mensagens WHERE grupo_id = $id_grupo ORDER BY horario DESC LIMIT 1";
             $consulta2 = mysqli_query($mysqli, $sql2);
                 $linha2 = mysqli_fetch_assoc($consulta2);
 
@@ -19,9 +19,9 @@
         //$offline = ($linha['status'] == "Offline") ? "offline" : "";
         //$esconder = ($id_remetente == $id_destinatario) ? "hide" : "";
 
-        $output .= '<a href="Chat.php?q='. decbin($id_destinatario) .'">
+        $output .= '<a href="ChatRoom.php?q='. decbin($id_grupo) .'">
                     <div class="content">
-                    <img src="imagens/profile-icon1.png" alt="">
+                    <img src="imagens/group-icon.png" alt="">
                     <div class="details">
                         <span>'. $linha['nome'] .'</span>
                         <p>'. $voce . $conteudo .'</p>

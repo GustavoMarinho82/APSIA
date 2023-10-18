@@ -21,7 +21,7 @@
                             $linha = mysqli_fetch_assoc($consulta);
                 ?>
 
-                <a href="Usuarios.php" class="back-icon"><i class="fas fa-arrow-left"></i></a>
+                <a href="Conversas.php" class="back-icon"><i class="fas fa-arrow-left"></i></a>
                 <img src="imagens/profile-icon1.png" alt="">
                 <div class="details">
                 <span><?php echo $linha['nome'] ?></span>

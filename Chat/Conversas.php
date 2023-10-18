@@ -26,13 +26,10 @@
                     <p>On-line</p>
                 </div>
                 </div>
-                <div class="content">
-                    <a href="Grupos.php"><img src="imagens/group-icon.png" alt=""></a>
-                    <a href="PHP/Usuarios/deslogar.php"><img src="imagens/logout-icon.png" alt=""></a>
-                </div>
+                <a href="PHP/Usuarios/deslogar.php" class="logout">Sair</a>
             </header>
             <div class="search">
-                <span class="text">Procurar um usuário</span>
+                <span class="text">Procurar um psicólogo ou grupo</span>
                 <input type="text" placeholder="Digite um nome para procurar...">
                 <button><i class="fas fa-search"></i></button>
             </div>
@@ -42,7 +39,7 @@
             </section>
         </div>
 
-    <script src="javascript/usuarios.js"></script>
+    <script src="javascript/conversas.js"></script>
 
     </body>
 </html>

@@ -17,6 +17,6 @@
             $_SESSION['id_usuario'] = $linha['id_usuario'];
             $_SESSION['privilegio'] = $linha['privilegio'];
 
-        header('Location: ../../Usuarios.php');
+        header('Location: ../../Conversas.php');
     }
 ?>

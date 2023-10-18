@@ -78,7 +78,7 @@
             }
 
         } else {
-            $output .= '<div class="text">Nenhuma mensagem disponível. As futuras mensagens desse grupo aparecerá aqui.</div>';
+            $output .= '<div class="text">Nenhuma mensagem disponível. As futuras mensagens desse grupo aparecerão aqui.</div>';
         }
     }
 

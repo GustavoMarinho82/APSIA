@@ -2,7 +2,7 @@
     session_start();
 
     if (isset($_SESSION['id_usuario'])){
-        header("Location: Usuarios.php");
+        header("Location: Conversas.php");
     }
 ?>
 

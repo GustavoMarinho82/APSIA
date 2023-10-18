@@ -16,7 +16,7 @@ CREATE TABLE grupos (
 CREATE TABLE mensagens (
 	id_mensagem MEDIUMINT UNSIGNED AUTO_INCREMENT,
 	conteudo TEXT NOT NULL,
-  	horario DATETIME DEFAULT CURRENT_TIMESTAMP, #'AAAA-MM-DD HH:MM'
+  	horario DATETIME DEFAULT CURRENT_TIMESTAMP(), #'AAAA-MM-DD HH:MM'
 	#status_mensagem ENUM('Pendente', 'Enviada', 'Visualizada') NOT NULL,
   		PRIMARY KEY (id_mensagem),
   
