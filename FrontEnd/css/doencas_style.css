@@ -34,7 +34,10 @@ body {
   width: 100%;
   background-color: var(--azul-escuro) !important;
 }
-  
+#margin-btn{
+  margin-top: 5.5rem;
+}
+
 .text-muted{
   font-family: "Montserrat";
   font-size: 20px;

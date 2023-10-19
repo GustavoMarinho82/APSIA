@@ -24,4 +24,8 @@ body {
   max-width: 100%;
   height: auto;
 }
-  
+
+.p-2 img{
+  height: matchparent; 
+  width: 100%;
+}
