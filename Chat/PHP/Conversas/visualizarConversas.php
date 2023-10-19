@@ -4,16 +4,7 @@
 
     $id_remetente = $_SESSION['id_usuario'];
 
-    $output = '<a href="Chat.php?q=0">
-                    <div class="content">
-                    <img src="imagens/profile-icon2.png" alt="">
-                    <div class="details">
-                        <span>AI</span>
-                        <p>ai</p>
-                    </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>';
+    $output = '';
 
     $sqlU = "SELECT * FROM usuarios WHERE NOT id_usuario = $id_remetente";
         $consultaU = mysqli_query($mysqli, $sqlU);
