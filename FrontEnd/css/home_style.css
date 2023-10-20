@@ -91,7 +91,6 @@ nav{
 .nav-list li{
   letter-spacing: 3px;
   margin-left: 1.3rem;
-  padding-top: 15px;
   font-family: 'PT Sans', sans-serif;
   color: var(--cor-fonte) !important;
 }
@@ -472,11 +471,12 @@ footer {
   padding: 2.5rem 3rem;
 }
 
-#footer_contato h1 {
+#footer_contacts h1 {
   margin-bottom: 0.75rem;
 }
-#footer_contato p{
-  margin-right: 1rem;
+#footer_contacts p{
+  margin-right: 1.5rem;
+  margin-top: 1rem;
 }
 
 #footer_social_media {
@@ -498,6 +498,9 @@ footer {
 
 #footer_social_media .footer-link i {
   font-size: 1.25rem;    
+}
+#footer-list .footer-link a{
+
 }
 
 #footer_social_media .footer-link:hover {
@@ -526,11 +529,12 @@ footer {
 .footer-list .footer-link {
   color: var(--cor-fonte);
   transition: all 0.4s;
+  font-size:  1.2rem;
 }
 
 .footer-list .footer-link:hover {
   color: var(--cor-font-leve);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 #footer_subscribe {
