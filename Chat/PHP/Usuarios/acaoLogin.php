@@ -17,6 +17,11 @@
             $_SESSION['id_usuario'] = $linha['id_usuario'];
             $_SESSION['privilegio'] = $linha['privilegio'];
 
-        header('Location: ../../Conversas.php');
+        if ($_SESSION['privilegio'] == "admin") {
+            header('Location: ../../../Admin/index.php');
+            
+        } else {
+            header('Location: ../../Conversas.php');
+        }
     }
 ?>

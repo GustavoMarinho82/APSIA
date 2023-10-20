@@ -6,7 +6,9 @@
 
     $output = '';
 
-    $sqlU = "SELECT * FROM usuarios WHERE NOT id_usuario = $id_remetente";
+    $sqlU = ($_SESSION['privilegio'] == "usuario") 
+        ? "SELECT * FROM usuarios WHERE NOT id_usuario = $id_remetente AND privilegio = 'psicologo'"
+        : "SELECT * FROM usuarios WHERE NOT id_usuario = $id_remetente AND privilegio != 'admin'";
         $consultaU = mysqli_query($mysqli, $sqlU);
 
     $sqlG = "SELECT * FROM grupos";
