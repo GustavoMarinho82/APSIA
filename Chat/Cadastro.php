@@ -1,12 +1,8 @@
 <?php 
     session_start();
-    
-    if (isset($_SESSION['id_usuario'])){
-        header("Location: Conversas.php");
-    }
-?>
+    include("header.php"); 
 
-<?php include("header.php"); ?>
+?>
     <body>
 
         <div class="wrapper">
@@ -42,7 +38,8 @@
                     </div>
                 </form>
 
-                <div class="link">Já possui uma conta? <a href="Login.php">Logue</a></div>
+                <div class="link">Já possui uma conta? <a href="Login.php">Logue</a> 
+                <p><a href="../views/Home.html">Voltar para a Home</a></div>
             </section>
         </div>
 
