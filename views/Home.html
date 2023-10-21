@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="" />
+    <link rel="icon" type="image/x-icon" href="../imagens/icone.png" />
     <link rel="stylesheet" href="../css/home_style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +17,7 @@
       <nav>
         <div class="nav-title">
           <img src="../imagens/logopequena.png">
-          <a class="logo" href="#">APSIA</a>
+          <a class="logo" href="./Home.html">APSIA</a>
         </div>
           <div class="mobile-menu">
               <div class="line1"></div>
@@ -47,13 +47,16 @@
 
           <!--slide imagens-->
             <div class="slide first">
-              <img src="../imagens/assets/carrossel1.png" alt="" />
-            </div>
-            <div class="slide">
-              <img src="../imagens/assets/carrossel2.jpg" alt="" />
-            </div>
-            <div class="slide">
               <img src="../imagens/assets/carrossel3.png" alt="" />
+              <div class="slide-text">
+                <p>descrição do slide.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="../imagens/assets/carrossel2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="../imagens/assets/carrossel5.jpeg" alt="" />
             </div>
             <div class="slide">
               <img src="../imagens/assets/carrossel4.jpg" alt="" />
@@ -106,7 +109,7 @@
           </div>
           <h3>CHAT</h3>
           <span>Participe do nosso chat de mensagens da nossa comunidade</span>
-          <button>Clique aqui</button>
+          <button href="../Chat/Cadastro.php">Clique aqui</button>
       </section>
       <section class="card noticia">
           <div class="icon">
@@ -114,14 +117,14 @@
           </div>
           <h3>Noticias</h3>
           <span>Mantenha-se informado sobre como é a situação no país sobre os Disturbios Mentais</span>
-          <button>Saiba mais</button>
+          <button href="./Noticiais.html">Saiba mais</button>
       </section>
       <section class="card sobre">
           <div class="icon">
-              <img src="../imagens/assets/falando.png" alt="Conheça-nos">
+              <img src="../imagens/assets/cerebro.png" alt="Conheça-nos">
           </div>
-          <h3>Conheça-nos</h3>
-          <span>Comente conosco se há algo em que podemos melhorar para o desenvolvimento do projeto</span>
+          <h3>Doenças Psicológicas</h3>
+          <span id="card-span">Aprofunde seu conhecimento sobre como funciona e quais os sintomas das doenças Psicológicas mais comuns no Brasil</span>
           <button>Fale conosco</button>
       </section>
   </main>
