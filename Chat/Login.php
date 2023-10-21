@@ -1,12 +1,8 @@
 <?php 
     session_start();
+    include("header.php"); 
 
-    if(isset($_SESSION['id_usuario'])){
-        header("Location: Usuarios.php");
-    }
 ?>
-
-<?php include("header.php"); ?>
     <body>
         
         <div class="wrapper">
@@ -23,8 +19,8 @@
 
                         } else if (!empty($_SESSION['email_cadastrado'])) {
                             echo "<div class='sucess-text'>Cadastrado com sucesso!</div>";
-                            $email_cadastrado=$_SESSION['email_cadastrado'];
-                            $_SESSION['email_cadastrado']="";
+                            $email_cadastrado = $_SESSION['email_cadastrado'];
+                            $_SESSION['email_cadastrado'] = "";
                         }
                     ?>
 
@@ -44,11 +40,25 @@
                     </div>
                 </form>
 
-                <div class="link">Ainda não possui uma conta? <a href="Cadastro.php">Cadastre-se</a></div>
+                <div class="link">Ainda não possui uma conta? <a href="Cadastro.php">Cadastre-se</a>
+                <p><a href="../views/Home.html">Voltar para a Home</a></div>
             </section>
         </div>
 
-        <script src="javascript/pass-show-hide.js"></script>
+        <script>
+            const pswrdField = document.querySelector(".form input[type='password']"),
+            toggleIcon = document.querySelector(".form .field i");
+
+            toggleIcon.onclick = () =>{
+            if(pswrdField.type === "password"){
+                pswrdField.type = "text";
+                toggleIcon.classList.add("active");
+            }else{
+                pswrdField.type = "password";
+                toggleIcon.classList.remove("active");
+            }
+            }
+        </script>
 
     </body>
 </html>

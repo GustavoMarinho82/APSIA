@@ -15,8 +15,13 @@
     } else {
         $linha = mysqli_fetch_array($consulta);  
             $_SESSION['id_usuario'] = $linha['id_usuario'];
-            $_SESSION['psicologo'] = $linha['psicologo'];
+            $_SESSION['privilegio'] = $linha['privilegio'];
 
-        header('Location: ../../Usuarios.php');
+        if ($_SESSION['privilegio'] == "admin") {
+            header('Location: ../../../Admin/index.php');
+            
+        } else {
+            header('Location: ../../Conversas.php');
+        }
     }
 ?>
